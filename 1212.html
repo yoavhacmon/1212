@@ -1,0 +1,78 @@
+<!-- 
+
+Hello Camper!
+
+<!-- Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding!  -->
+<style>
+  
+  @media (max-width: 600px) {
+  body {
+    font-size: 60%;
+  }
+}
+  body{
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  #navbar {
+ 
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  background-color: white;
+    color: blueviolet;
+
+  
+}
+  #welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  }
+ #profile-link {
+    font-size: 20px; 
+  }
+</style>
+<html>
+<body>
+  <nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#p_welcome_section">About me</a>
+    </li>
+    <li>
+      <a href="#projects">My projects</a>
+    </li>
+  </ul>
+</nav>
+<section id="welcome-section" class="welcome-section">
+  <h1>Yoav Hacmon - <b>Photographer</b></h1>
+  <p id="p_welcome_section">Hi, my name is Yoav Hacmon and I'm a profetional photogrpher.<br> 
+    This is my portfolio</p>
+</section>
+
+<section id="projects" class="projects-section">
+  <h2>My Projects:</h2>
+  <ul>
+  <li class="project-tile"> <img id= "image1" src= "https://img.haarets.co.il/img/1.9641564/641702047.jpg?width=1200&height=1200" alt="flowers"             style="width:100px;height:120px;"></li>
+  <li class="project-tile"> <img id= "image2" src= "https://ynet-              images1.yit.co.il/picserver5/crop_images/2020/02/18/SkXdsT4tQ8/SkXdsT4tQ8_0_176_1024_576_x-large.jpg" alt="flowers"             style="width:120px;height:100px;"> <a href= "https://www.ynet.co.il/vacation/israeltrips/article/SyIeMrFmU"> The story behind this picture<a> </li>
+  <li class="project-tile"> <img id= "image3" src= "https://www.photo-art.co.il/wp-content/uploads/2017/09/38-3088-21.jpg" alt="flowers" style="width:100px;height:120px;"></li>
+  </ul>
+</section>
+  <a id="profile-link" href="https://www.freecodecamp.org/yoav_hacmon" target="_blank">My Profile</a>
+  
+  </html>
+</body>
